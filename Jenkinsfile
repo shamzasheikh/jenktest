@@ -9,7 +9,7 @@ pipeline {
         stage('Example') {
             steps {
                 echo "Hi Shamza!"
-                sh "ansible-playbook -u shamza -i ${WORKSPACE}/ansible_hosts -l $HOST ${WORKSPACE}/first.yml"
+                sh "ansible-playbook -i ${WORKSPACE}/ansible_hosts -l $HOST ${WORKSPACE}/first.yml"
             }
         }
     }
