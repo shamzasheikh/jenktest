@@ -1,0 +1,12 @@
+---
+- hosts: all
+  tasks:
+  - name: Taking git checkout and taking pull
+    shell: git checkout master; git pull
+    register: result
+    args:
+      chdir: /home/shamza/jenktest
+
+  - debug:
+      var: result
+      verbosity: 4 

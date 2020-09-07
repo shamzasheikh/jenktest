@@ -1,3 +1,8 @@
-[node1]
+[jenkserver]
+10.128.0.39
+
+[master]
 10.128.0.37
+
+[kworker]
 10.128.0.38
