@@ -1,7 +1,7 @@
 [jenkserver]
 10.128.0.39
 
-[master]
+[kmaster]
 10.128.0.37
 
 [kworker]
