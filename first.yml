@@ -1,0 +1,8 @@
+---
+
+- hosts: all
+  tasks:
+  - name:
+    shell: wget https://mayur-idw-product.s3.amazonaws.com/jdk-8u121-linux-x64.rpm
+    args:
+      chdir: /home/shamza
